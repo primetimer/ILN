@@ -1222,7 +1222,7 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "4.0";
             TARGET_NAME = "App";
          };
          name = "Debug";
@@ -1290,7 +1290,7 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "4.0";
             TARGET_NAME = "App";
          };
          name = "Release";
@@ -1973,7 +1973,7 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "4.0";
             TARGET_NAME = "AppTests";
          };
          name = "Debug";
@@ -2039,7 +2039,7 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "4.0";
             TARGET_NAME = "AppTests";
          };
          name = "Release";
@@ -9782,15 +9782,15 @@
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "4.2",
+               "4",
                "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
                "-target",
                "x86_64-apple-macosx10.10",
                "-sdk",
                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "4.0";
          };
          name = "Debug";
       };
@@ -9805,15 +9805,15 @@
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "4.2",
+               "4",
                "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
                "-target",
                "x86_64-apple-macosx10.10",
                "-sdk",
                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "4.0";
          };
          name = "Release";
       };
@@ -14406,7 +14406,7 @@
             );
             SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
             SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "4.0";
             TARGET_NAME = "Run";
          };
          name = "Debug";
@@ -14472,7 +14472,7 @@
             );
             SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
             SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "4.0";
             TARGET_NAME = "Run";
          };
          name = "Release";
@@ -23811,54 +23811,54 @@
       "OBJ_979" = {
          isa = "PBXGroup";
          children = (
-            "Core::Core::Product",
-            "WebSocket::WebSocket::Product",
-            "Core::COperatingSystem::Product",
-            "Core::Debugging::Product",
-            "FluentPostgreSQL::FluentPostgreSQL::Product",
-            "swift-nio::CNIOAtomics::Product",
-            "SQL::SQL::Product",
-            "swift-nio-ssl::CNIOOpenSSL::Product",
-            "swift-nio::NIOHTTP1::Product",
-            "Fluent::Fluent::Product",
-            "Core::Bits::Product",
-            "Crypto::Random::Product",
-            "DatabaseKit::DatabaseKit::Product",
-            "Crypto::CBase32::Product",
-            "ILNApp::App::Product",
-            "TemplateKit::TemplateKit::Product",
-            "Leaf::Leaf::Product",
-            "Console::Logging::Product",
-            "ILNApp::Run::Product",
-            "swift-nio::CNIOHTTPParser::Product",
-            "Console::Console::Product",
-            "Auth::Authentication::Product",
-            "Crypto::Crypto::Product",
-            "swift-nio::NIO::Product",
-            "Routing::Routing::Product",
-            "swift-nio::CNIOSHA1::Product",
-            "swift-nio::NIOFoundationCompat::Product",
             "Vapor::Vapor::Product",
-            "swift-nio::NIOWebSocket::Product",
-            "Fluent::FluentSQL::Product",
-            "swift-nio::CNIOZlib::Product",
-            "swift-nio::NIOPriorityQueue::Product",
-            "URLEncodedForm::URLEncodedForm::Product",
-            "ILNApp::AppTests::Product",
-            "swift-nio-ssl::NIOOpenSSL::Product",
-            "Crypto::CBcrypt::Product",
-            "Crypto::CCryptoOpenSSL::Product",
-            "Console::Command::Product",
             "HTTP::HTTP::Product",
-            "Core::Async::Product",
-            "swift-nio::CNIOLinux::Product",
+            "swift-nio::CNIOZlib::Product",
+            "Crypto::CCryptoOpenSSL::Product",
+            "Crypto::Random::Product",
+            "ILNApp::App::Product",
+            "Fluent::Fluent::Product",
+            "Console::Logging::Product",
+            "swift-nio::NIOHTTP1::Product",
+            "Core::Core::Product",
+            "swift-nio::NIO::Product",
             "Service::Service::Product",
-            "swift-nio::NIOTLS::Product",
-            "swift-nio::NIOConcurrencyHelpers::Product",
-            "PostgreSQL::PostgreSQL::Product",
-            "Validation::Validation::Product",
+            "Core::Async::Product",
+            "Core::COperatingSystem::Product",
+            "swift-nio::CNIOHTTPParser::Product",
+            "swift-nio::NIOPriorityQueue::Product",
+            "FluentPostgreSQL::FluentPostgreSQL::Product",
+            "URLEncodedForm::URLEncodedForm::Product",
+            "Fluent::FluentSQL::Product",
+            "WebSocket::WebSocket::Product",
+            "Auth::Authentication::Product",
             "Multipart::Multipart::Product",
-            "swift-nio::CNIODarwin::Product"
+            "Validation::Validation::Product",
+            "SQL::SQL::Product",
+            "Core::Debugging::Product",
+            "DatabaseKit::DatabaseKit::Product",
+            "swift-nio::CNIODarwin::Product",
+            "ILNApp::AppTests::Product",
+            "swift-nio-ssl::CNIOOpenSSL::Product",
+            "Routing::Routing::Product",
+            "PostgreSQL::PostgreSQL::Product",
+            "TemplateKit::TemplateKit::Product",
+            "Crypto::Crypto::Product",
+            "Crypto::CBcrypt::Product",
+            "swift-nio::NIOConcurrencyHelpers::Product",
+            "swift-nio::NIOFoundationCompat::Product",
+            "ILNApp::Run::Product",
+            "Core::Bits::Product",
+            "swift-nio-ssl::NIOOpenSSL::Product",
+            "Console::Command::Product",
+            "swift-nio::CNIOAtomics::Product",
+            "swift-nio::NIOWebSocket::Product",
+            "swift-nio::NIOTLS::Product",
+            "Console::Console::Product",
+            "swift-nio::CNIOSHA1::Product",
+            "swift-nio::CNIOLinux::Product",
+            "Leaf::Leaf::Product",
+            "Crypto::CBase32::Product"
          );
          name = "Products";
          path = "";
