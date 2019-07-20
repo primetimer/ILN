@@ -1,4 +1,4 @@
-// swift-tools-version:4.1
+// swift-tools-version:4.2
 
 // docker run --name postgres -e POSTGRES_DB=ilndb -e POSTGRES_USER=ilnuser -e POSTGRES_PASSWORD=iln -p 5432:5432 -d postgres
 import PackageDescription
