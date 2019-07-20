@@ -1,5 +1,6 @@
 // swift-tools-version:4.2
-
+// aws 52.58.72.19
+// aws iln2 18.197.144.50
 // docker run --name postgres -e POSTGRES_DB=ilndb -e POSTGRES_USER=ilnuser -e POSTGRES_PASSWORD=iln -p 5432:5432 -d postgres
 import PackageDescription
 
