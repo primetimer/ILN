@@ -1,7 +1,11 @@
 // swift-tools-version:4.2
 // aws 52.58.72.19
 // aws iln2 18.197.144.50
+// vpc bei amazon 172.31.0.0/16
 // docker run --name postgres -e POSTGRES_DB=ilndb -e POSTGRES_USER=ilnuser -e POSTGRES_PASSWORD=iln -p 5432:5432 -d postgres
+
+// ssh -i "iln2.pem" ubuntu@ec2-18-197-144-50.eu-central-1.compute.amazonaws.com
+
 import PackageDescription
 
 let package = Package(
